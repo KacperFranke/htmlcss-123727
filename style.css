@@ -16,6 +16,23 @@ position: sticky;
 top: 0;
 }
 
+.page_header {
+font-size: 25px;
+display: flex;
+}
+
+.page_title {
+display: flex;
+justify-content: flex-start;
+gap: 10px;
+}
+
+.page_author {
+display: flex;
+justify-content: flex-end;
+gap: 10px;
+}
+
 main {
 background: #B0C4DE;
 }
