@@ -1,0 +1,27 @@
+* {
+margin: 0;
+box-sizing: border-box;
+font-size: 14px;
+}
+
+body {
+height: 100vh;
+display: flex;
+flex-direction: column;
+}
+
+header {
+background: #4682B4;
+position: sticky;
+top: 0;
+}
+
+main {
+background: #B0C4DE;
+}
+
+footer {
+background: #4682B4;
+display: flex;
+align-items: flex-start;
+}
