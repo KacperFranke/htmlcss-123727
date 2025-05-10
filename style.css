@@ -12,34 +12,51 @@ flex-direction: column;
 
 header {
 background: #4682B4;
-color: #fff;
 position: sticky;
 top: 0;
-padding: 25px;
-font-weight: bold;
-font-size: 25px;
 }
 
 .page_header {
-justify-content: space-between;
+font-size: 25px;
 display: flex;
 }
 
 .page_title {
 display: flex;
 justify-content: flex-start;
-gap: 10px;
+padding: 10px;
 }
 
 .page_author {
 display: flex;
 justify-content: flex-end;
-gap: 10px;
+padding: 10px;
 }
 
 main {
 background: #B0C4DE;
+display: flex;
 }
+
+.article_info {
+    display: flex;
+}
+
+.article_date {
+    display: flex-start;
+}
+
+.article_title {
+    display: flex-end;
+    font-weight: bold;
+}
+
+.content_main {
+    flex-basis: 70%;
+    flex-grow: 1;
+}
+
+
 
 footer {
 background: #4682B4;
