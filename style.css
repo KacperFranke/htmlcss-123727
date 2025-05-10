@@ -28,7 +28,7 @@ flex-direction: column;
     gap: 40px;
 }
 
-@media (max-width: 768px)
+@media (max-width: 1079px)
 {
     .container {
         flex-direction: column;
