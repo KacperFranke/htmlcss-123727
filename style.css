@@ -11,6 +11,10 @@ display: flex;
 flex-direction: column;
 }
 
+.container_header {
+    flex-direction: row;
+}
+
 .container {
     width: 90%;
     max-width: 1200px;
