@@ -21,7 +21,7 @@ flex-direction: column;
 }
 
 header {
-background: #4682B4;
+background: #1E3A5F;
 color: white;
 padding: 15px 0;
 position: sticky;
@@ -43,15 +43,17 @@ padding-left: 10px;
 
 .page_author {
 padding-right: 10px;
+color: #d1d5db;
 }
 
 main {
-background: #B0C4DE;
+background: #f0f4f8;
 flex: 1;
 padding: 40px 0;
 }
 
 p {
+    color: #111827;
     margin-bottom: 20px;
     line-height: 1.6;
 }
@@ -63,8 +65,8 @@ p {
 
 .article_date {
     display: flex-start;
-    color: #555;
-    margin-bottom: 5px;
+    color: #6b7280;
+    margin-bottom: 10px;
 }
 
 .article_image img{
@@ -76,8 +78,10 @@ p {
 }
 
 .article_title {
-    display: flex-end;
+    font-size: 20px;
     font-weight: bold;
+    display: flex-end;
+    color: #1f2937;
 }
 
 .article_preview {
@@ -98,9 +102,8 @@ p {
 
 
 footer {
-background: #d4e6f1;
+background: #1E3A5F;
 padding: 15px 0;
-margin-top: 40px;
 bottom: 0;
 }
 
