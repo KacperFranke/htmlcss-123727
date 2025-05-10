@@ -138,6 +138,13 @@ p {
     flex: 1 1 30%;
 }
 
+.content_see_also {
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 23px;
+    color: #1f2937;
+}
+
 footer {
 background: #1E3A5F;
 padding: 15px 0;
