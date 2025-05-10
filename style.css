@@ -69,6 +69,12 @@ p {
     margin-bottom: 10px;
 }
 
+.article_image {
+    background: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
 .article_image img{
     max-width: 100%;
     height: auto;
