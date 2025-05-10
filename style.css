@@ -24,14 +24,8 @@ flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 40px;
-}
-
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column; 
-    }
 }
 
 header {
@@ -60,6 +54,22 @@ padding-left: 10px;
 padding-right: 10px;
 color: #d1d5db;
 white-space: nowrap;
+}
+
+.page_author img {
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-color: #fff;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.page_author img:hover {
+    height: 35px;
+    width: 35px;
+    background-color: #FFD700;
 }
 
 main {
@@ -97,6 +107,7 @@ p {
     height: auto;
     border-radius: 5px;
     display: block;
+    margin: 5px;
 }
 
 .article_title {
@@ -126,7 +137,6 @@ p {
 .content_sub {
     flex: 1 1 30%;
 }
-
 
 footer {
 background: #1E3A5F;
