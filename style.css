@@ -2,6 +2,7 @@
 margin: 0;
 box-sizing: border-box;
 font-size: 14px;
+font-family: Arial, sans-serif;
 }
 
 body {
@@ -10,8 +11,16 @@ display: flex;
 flex-direction: column;
 }
 
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 header {
 background: #4682B4;
+color: white;
+padding: 15px 0;
 position: sticky;
 top: 0;
 }
@@ -19,9 +28,13 @@ top: 0;
 .page_header {
 font-size: 25px;
 display: flex;
+justify-content: space-between;
+align-items: center;
 }
 
 .page_title {
+font-size: 24px;
+font-weight: bold;
 display: flex;
 justify-content: flex-start;
 padding: 10px;
@@ -35,7 +48,11 @@ padding: 10px;
 
 main {
 background: #B0C4DE;
+flex: 1;
 display: flex;
+flex-wrap: flex;
+gap: 20px;
+
 }
 
 .article_info {
@@ -44,6 +61,8 @@ display: flex;
 
 .article_date {
     display: flex-start;
+    color: #555;
+    margin-bottom: 5px;
 }
 
 .article_title {
@@ -52,10 +71,12 @@ display: flex;
 }
 
 .content_main {
-    flex-basis: 70%;
-    flex-grow: 1;
+    flex: 2 1 65%;
 }
 
+.content_sub {
+    flex: 1 1 30%;
+}
 
 
 footer {
