@@ -82,7 +82,8 @@ flex-wrap: flex;
 
 
 footer {
-background: #4682B4;
+background: #d4e6f1;
 display: flex;
 align-items: flex-start;
+bottom: 0;
 }
