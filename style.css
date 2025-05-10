@@ -57,18 +57,18 @@ white-space: nowrap;
 }
 
 .page_author img {
-    height: 30px;
-    width: 30px;
+    height: 32px;
+    width: 32px;
     vertical-align: middle;
     margin-right: 10px;
     background-color: #fff;
-    border-radius: 30px;
+    border-radius: 32px;
     transition: 0.3s;
 }
 
 .page_author img:hover {
-    height: 35px;
-    width: 35px;
+    height: 48px;
+    width: 48px;
     background-color: #FFD700;
 }
 
@@ -160,9 +160,9 @@ bottom: 0;
     }
 
     .page_author img {
-        height: 128px;
-        width: 128px;
-        border-radius: 128px;
+        height: 48px;
+        width: 48px;
+        border-radius: 48px;
     }
 
     .page_author img:hover {
@@ -175,11 +175,6 @@ bottom: 0;
     
     .article_preview {
         font-size: 20px;
-    }
-    
-    p {
-        font-size: 18px;
-        line-height: 1.8;
     }
     
     .container {
