@@ -20,7 +20,7 @@ flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 40px;
 }
 
@@ -37,6 +37,7 @@ font-size: 25px;
 display: flex;
 justify-content: space-between;
 align-items: center;
+gap: 20px;
 }
 
 .page_title {
@@ -48,6 +49,7 @@ padding-left: 10px;
 .page_author {
 padding-right: 10px;
 color: #d1d5db;
+white-space: nowrap;
 }
 
 main {
@@ -85,15 +87,14 @@ p {
     height: auto;
     border-radius: 5px;
     display: block;
-    margin-bottom: 5px;
+    margin: 5px;
 }
 
 .article_title {
     font-size: 20px;
     font-weight: bold;
-    margin-bottom: 20px;
+    display: flex-end;
     color: #1f2937;
-    
 }
 
 .article_preview {
@@ -102,6 +103,11 @@ p {
     background: #fff;
     padding: 10px;
     border-radius: 5px;
+}
+
+.article_sub {
+    border-radius: 5px;
+    background: #D3D3D3;
 }
 
 .content_main {
