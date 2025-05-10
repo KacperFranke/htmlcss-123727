@@ -5,6 +5,10 @@ font-size: 14px;
 font-family: Arial, sans-serif;
 }
 
+a {
+text-decoration: none;
+}
+
 body {
 height: 100vh;
 display: flex;
