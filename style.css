@@ -91,8 +91,9 @@ p {
 .article_title {
     font-size: 20px;
     font-weight: bold;
-    display: flex-end;
+    margin-bottom: 20px;
     color: #1f2937;
+    
 }
 
 .article_preview {
