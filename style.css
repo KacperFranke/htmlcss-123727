@@ -152,19 +152,29 @@ bottom: 0;
 @media (max-width: 1079px)
 {
     body {
-        font-size: 16px;
+        font-size: 20px;
+    }
+
+    .page_header {
+        font-size: 30px;
+    }
+
+    .page_author img {
+        height: 128px;
+        width: 128px;
+        border-radius: 128px;
     }
     
     .article_title {
-        font-size: 18px;
+        font-size: 20px;
     }
     
     .article_preview {
-        font-size: 15px;
+        font-size: 20px;
     }
     
     p {
-        font-size: 15px;
+        font-size: 18px;
         line-height: 1.8;
     }
     
