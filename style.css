@@ -28,6 +28,12 @@ flex-direction: column;
     gap: 40px;
 }
 
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; 
+    }
+}
+
 header {
 background: #1E3A5F;
 color: white;
