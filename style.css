@@ -159,7 +159,7 @@ bottom: 0;
 @media (max-width: 1079px)
 {
     body {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .page_header {
@@ -177,11 +177,11 @@ bottom: 0;
     }
     
     .article_title {
-        font-size: 20px;
+        font-size: 25px;
     }
     
     .article_preview {
-        font-size: 20px;
+        font-size: 30px;
     }
     
     .container {
