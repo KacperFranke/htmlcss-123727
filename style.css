@@ -156,13 +156,17 @@ bottom: 0;
     }
 
     .page_header {
-        font-size: 30px;
+        font-size: 45px;
     }
 
     .page_author img {
         height: 128px;
         width: 128px;
         border-radius: 128px;
+    }
+
+    .page_author img:hover {
+        background-color: #FFD700;
     }
     
     .article_title {
