@@ -17,6 +17,7 @@ flex-direction: column;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    gap: 40px;
 }
 
 header {
@@ -37,21 +38,27 @@ align-items: center;
 .page_title {
 font-size: 24px;
 font-weight: bold;
-padding: 10px;
+padding-left: 10px;
 }
 
 .page_author {
-padding: 10px;
+padding-right: 10px;
 }
 
 main {
 background: #B0C4DE;
 flex: 1;
-flex-wrap: flex;
+padding: 40px 0;
+}
+
+p {
+    margin-bottom: 20px;
+    line-height: 1.6;
 }
 
 .article_info {
     display: flex;
+    margin-bottom: 20px;
 }
 
 .article_date {
@@ -65,11 +72,20 @@ flex-wrap: flex;
     height: auto;
     border-radius: 5px;
     display: block;
+    margin-bottom: 5px;
 }
 
 .article_title {
     display: flex-end;
     font-weight: bold;
+}
+
+.article_preview {
+    font-size: 13px;
+    margin-bottom: 30px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .content_main {
@@ -83,7 +99,12 @@ flex-wrap: flex;
 
 footer {
 background: #d4e6f1;
-display: flex;
-align-items: flex-start;
+padding: 15px 0;
+margin-top: 40px;
 bottom: 0;
+}
+
+.footer_text {
+    text-align: center;
+    color: white;
 }
